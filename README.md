@@ -42,6 +42,11 @@ El objetivo es como el *Deep Learning* pueden utilizarse en problemas científic
   - `matplotlib`, `seaborn` → Visualización  
   - `scikit-learn` → Preprocesamiento y métricas  
 
+### Instalación de paquetes a partir del archivo requirements.txt
+
+```bash
+pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu121
+```
 ---
 
 ##  Objetivos del portafolio
