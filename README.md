@@ -25,7 +25,7 @@ El objetivo es como el *Deep Learning* pueden utilizarse en problemas científic
 - **Descripción:** Clasificación de meteoritos según su tipo (condrita, hierro, etc.) a partir de datos tabulares.
 - **Dataset:** [NASA Meteoritical Bulletin Database](https://www.kaggle.com/datasets/nasa/meteorite-landings).
 - **Objetivo de aprendizaje:** Redes densas (MLP), normalización de datos y clasificación supervisada en datasets tabulares.
-- [Clasificación de Meteoritos](1-meteoritos-classification/)
+- [Clasificación de Meteoritos](./1-meteoritos-classification/)
 --- 
 ### 4. Chatbot Astronómico con LLM y RAG
 - **Descripción:** Desarrollo de un chatbot capaz de responder preguntas sobre astronomía y espacio. Se basa en un modelo de lenguaje preentrenado (LLM) combinado con RAG (Retrieval-Augmented Generation), que permite recuperar información de documentos astronómicos reales (Wikipedia, papers de la NASA, datasets abiertos) para dar respuestas más precisas y contextualizadas.
