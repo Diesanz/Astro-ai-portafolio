@@ -7,25 +7,39 @@ El objetivo es como el *Deep Learning* pueden utilizarse en problemas científic
 
 ## Proyectos incluidos
 
-### 1. Clasificación de Galaxias
+### 1. Preparación de Datos de Meteoritos
+- **Descripción:** Proyecto dedicado a la limpieza, exploración y preparación de datos del catálogo de caídas y hallazgos de meteoritos.  
+- **Dataset:** [NASA Meteoritical Bulletin Database](https://www.kaggle.com/datasets/nasa/meteorite-landings).  
+- **Objetivo de aprendizaje:**  
+  - Recolección y limpieza de datos reales.  
+  - Manejo de valores faltantes y outliers.  
+  - Filtrado de rangos temporales y geográficos.  
+  - Normalización y codificación de variables categóricas.  
+- [Preparación de Meteorite Landings](./1-Meteorites-Data-Preparation/)
+
+---
+
+### 2. Clasificación Estelar
+- **Descripción:** Clasificación de objetos astronómicos (galaxias, estrellas, cuásares) a partir de datos fotométricos y espectroscópicos.  
+- **Dataset:** [Sloan Digital Sky Survey (SDSS17)](https://www.kaggle.com/datasets/fedesoriano/stellar-classification-dataset-sdss17).  
+- **Objetivo de aprendizaje:**  
+  - Construcción de un modelo de red neuronal densa (MLP).  
+  - Normalización de datos y preprocesamiento con `scikit-learn`.  
+  - Entrenamiento y evaluación supervisada en datasets tabulares.  
+- [Clasificación Estelar](./2-Stellar-Classification/) 
+
+### 3. Clasificación de Galaxias
 - **Descripción:** Entrenamiento de una CNN para clasificar galaxias en distintas morfologías (espiral, elíptica, irregular, etc.).
 - **Dataset:** [Galaxy Zoo](https://www.kaggle.com/c/galaxy-zoo-the-galaxy-challenge).
 - **Objetivo de aprendizaje:** Procesado de imágenes astronómicas y calsificacion de galaxias.
 
 ---
 
-### 2. Detección de Exoplanetas
+### 3. Detección de Exoplanetas
 - **Descripción:** Uso de series temporales de brillo estelar (curvas de luz) para detectar posibles exoplanetas.
 - **Dataset:** Datos de las misiones [Kepler](https://www.kaggle.com/datasets/keplersmachines/kepler-labelled-time-series-data) / [TESS](https://exoplanetarchive.ipac.caltech.edu/).
 - **Objetivo de aprendizaje:** Redes neuronales recurrentes (RNN, LSTM) y modelos 1D-CNN aplicados a datos temporales.
 
----
-
-### 3. Clasificación de Meteoritos
-- **Descripción:** Clasificación de meteoritos según su tipo (condrita, hierro, etc.) a partir de datos tabulares.
-- **Dataset:** [NASA Meteoritical Bulletin Database](https://www.kaggle.com/datasets/nasa/meteorite-landings).
-- **Objetivo de aprendizaje:** Redes densas (MLP), normalización de datos y clasificación supervisada en datasets tabulares.
-- [Clasificación de Meteoritos](./1-meterorites-classification/)
 --- 
 ### 4. Chatbot Astronómico con LLM y RAG
 - **Descripción:** Desarrollo de un chatbot capaz de responder preguntas sobre astronomía y espacio. Se basa en un modelo de lenguaje preentrenado (LLM) combinado con RAG (Retrieval-Augmented Generation), que permite recuperar información de documentos astronómicos reales (Wikipedia, papers de la NASA, datasets abiertos) para dar respuestas más precisas y contextualizadas.
