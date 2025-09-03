@@ -32,7 +32,7 @@ El objetivo es como el *Deep Learning* pueden utilizarse en problemas científic
 - **Descripción:** Entrenamiento de una CNN para clasificar galaxias en distintas morfologías (espiral, elíptica, irregular, etc.).
 - **Dataset:** [Galaxy Zoo](https://www.kaggle.com/c/galaxy-zoo-the-galaxy-challenge).
 - **Objetivo de aprendizaje:** Procesado de imágenes astronómicas y calsificacion de galaxias.
-
+- [Clasificación Galaxias](./3-Galaxy(Img)-Classification/) 
 ---
 
 ### 3. Detección de Exoplanetas
