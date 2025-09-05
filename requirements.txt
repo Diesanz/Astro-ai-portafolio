@@ -22,6 +22,12 @@ sentence-transformers==3.0.1
 huggingface-hub==0.24.6
 accelerate==0.34.2
 bitsandbytes==0.43.3  
+gradio
+faiss-cpu
+
+#obtener información/documnetso de internet como wikipedio o papers
+wikipedia-api
+arxiv
 
 
 plotly==5.23.0
