@@ -24,6 +24,7 @@ accelerate==0.34.2
 bitsandbytes==0.43.3  
 gradio
 faiss-cpu
+evaluate
 
 #obtener información/documnetso de internet como wikipedio o papers
 wikipedia-api

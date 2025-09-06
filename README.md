@@ -33,12 +33,6 @@ El objetivo es como el *Deep Learning* pueden utilizarse en problemas científic
 - **Dataset:** [Galaxy Zoo](https://www.kaggle.com/c/galaxy-zoo-the-galaxy-challenge).
 - **Objetivo de aprendizaje:** Procesado de imágenes astronómicas y calsificacion de galaxias.
 - [Clasificación Galaxias](./3-Galaxy(Img)-Classification/) 
----
-
-### 3. Detección de Exoplanetas
-- **Descripción:** Uso de series temporales de brillo estelar (curvas de luz) para detectar posibles exoplanetas.
-- **Dataset:** Datos de las misiones [Kepler](https://www.kaggle.com/datasets/keplersmachines/kepler-labelled-time-series-data) / [TESS](https://exoplanetarchive.ipac.caltech.edu/).
-- **Objetivo de aprendizaje:** Redes neuronales recurrentes (RNN, LSTM) y modelos 1D-CNN aplicados a datos temporales.
 
 --- 
 ### 4. Chatbot Astronómico con LLM y RAG
