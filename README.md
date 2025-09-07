@@ -39,7 +39,7 @@ El objetivo es como el *Deep Learning* pueden utilizarse en problemas científic
 - **Descripción:** Desarrollo de un chatbot capaz de responder preguntas sobre astronomía y espacio. Se basa en un modelo de lenguaje preentrenado (LLM) combinado con RAG (Retrieval-Augmented Generation), que permite recuperar información de documentos astronómicos reales (Wikipedia, papers de la NASA, datasets abiertos) para dar respuestas más precisas y contextualizadas.
 - **Dataset:** Corpus de textos astronómicos (Wikipedia, papers de NASA/arXiv, datasets abiertos de astronomía).
 - **Objetivo de aprendizaje:** Uso de LLMs, embeddings semánticos, bases vectoriales y pipelines RAG, junto con el despliegue en una demo interactiva con Gradio o Streamlit.
-
+- [Chatbot Atronómico](./4-Astronomic-Chatbot/) 
 ---
 
 ##  Tecnologías utilizadas
