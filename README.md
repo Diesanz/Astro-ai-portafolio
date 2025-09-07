@@ -28,6 +28,8 @@ El objetivo es como el *Deep Learning* pueden utilizarse en problemas científic
   - Entrenamiento y evaluación supervisada en datasets tabulares.  
 - [Clasificación Estelar](./2-Stellar-Classification/) 
 
+--- 
+
 ### 3. Clasificación de Galaxias
 - **Descripción:** Entrenamiento de una CNN para clasificar galaxias en distintas morfologías (espiral, elíptica, irregular, etc.).
 - **Dataset:** [Galaxy Zoo](https://www.kaggle.com/c/galaxy-zoo-the-galaxy-challenge).
