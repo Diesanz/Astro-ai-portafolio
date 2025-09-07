@@ -3,3 +3,5 @@
 /1-meterorites-classification/.ipynb_checkpoints
 /3-Galaxy(Img)-Classification/Datasets
 /4-Astronomic-Chatbot/results/
+/4-Astronomic-Chatbot/gpt2-astrotuned
+*/__pycache__
